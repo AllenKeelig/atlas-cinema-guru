@@ -68,7 +68,7 @@ export function useMovies() {
   };
 
 const toggleWatchLater = async (id: string, watchLater: boolean) => {
-  const res = await fetch(`/api/watchlater/${id}`, {
+  const res = await fetch(`/api/watch-later/${id}`, {
     method: watchLater ? "DELETE" : "POST",
   });
 
