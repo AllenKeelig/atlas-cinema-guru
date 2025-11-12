@@ -1,11 +1,10 @@
 import ProtectedLayout from "@/components/ProtectedLayout";
+import HomePage from "@/components/HomePage";
 
 export default async function Page() {
   return (
     <ProtectedLayout>
-      <div className="flex items-center justify-center h-screen">
-        Hello Cinema Guru
-      </div>
+      <HomePage />
     </ProtectedLayout>
   );
 }

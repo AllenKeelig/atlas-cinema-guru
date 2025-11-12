@@ -1,5 +1,6 @@
 import { Generated } from "kysely";
 import { createKysely } from "@vercel/postgres-kysely";
+console.log("POSTGRES_URL:", process.env.POSTGRES_URL);
 
 export interface Database {
   titles: TitlesTable;
