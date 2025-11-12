@@ -14,7 +14,7 @@ export default function RootLayout({ children }: Props) {
   return (
     <html lang="en">
       <body className={`antialiased  bg-[#00003c] text-white`}>
-        <SessionProvider>{children}</SessionProvider>;
+        <SessionProvider>{children}</SessionProvider>
       </body>
     </html>
   );
